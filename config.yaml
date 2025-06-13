@@ -1,0 +1,16 @@
+name: Drewpol
+version: "1.0"
+slug: drewpol
+description: Addon zapisujący dane z formularza do pliku i pokazujący wpisy
+startup: services
+boot: auto
+ingress: true
+ingress_port: 8099
+panel_icon: mdi:form-select
+host_network: true
+options: {}
+schema: {}
+init: false
+hassio_api: false
+hassio_role: default
+apparmor: false
